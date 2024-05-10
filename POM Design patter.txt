@@ -1,0 +1,26 @@
+POM Design patter
+
+pageclass(package)
+
+loginpage--------------------Every page need to follow some rules:
+                             1.declare WebDriver driver;
+                             2.create constructor
+                             3.object repository
+                             4.Methods/function related to particular page
+                  
+dashboardpage--------------------Every page need to follow some rules:
+                             1.declare WebDriver driver;
+                             2.create constructor
+                             3.object repository
+                             4.Methods/function related to particular page
+
+
+object repository: it is collection of   particular page related webElement is called as Object repository
+
+PageFactory ---it is class
+initElements(driver, this)--Initialization of elements
+driver--local varible
+ this---current
+
+
+PageFactory.initElements(driver, this);-- is used to identify element In the partccular

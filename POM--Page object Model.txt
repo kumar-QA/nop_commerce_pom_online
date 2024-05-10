@@ -1,0 +1,23 @@
+POM--Page object Model
+
+what is Pom ? 
+it is design pattern 
+in these design pattern every page is considered as object
+
+what is the used pom?
+------------------------
+1.reuse the code
+2reduce the code
+
+
+Example: NOPCommerce
+
+Without these pageObjectModel
+
+1.LoginFunction
+2.verify SearchProduct
+3.verify searchcategories
+
+
+
+
